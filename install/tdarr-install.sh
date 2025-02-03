@@ -53,7 +53,6 @@ service_path="/etc/systemd/system/tdarr-node.service"
 echo "[Unit]
 Description=Tdarr Node Daemon
 After=network.target
-#Requires=tdarr-server.service
 
 [Service]
 User=root
